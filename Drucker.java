@@ -37,7 +37,16 @@ public class Drucker {
      
     public void setDpi(int neuDpi)
    {
-    dpi = neuDpi;
+       if (neuDpi > 100 && neuDpi < 9600)
+       {
+          dpi = neuDpi;  
+       }
+       else
+       {
+           System.out.println("Fehler");
+           dpi = 0;
+       }
+
    }
 
     public void setFarbdruck(boolean neuFarbdruck)
@@ -50,5 +59,5 @@ public class Drucker {
    System.out.println(modell + " Drucker: " + dpi + " DPI " + "- " +farbdruck);
    }
    
-  
+   
 }
