@@ -21,4 +21,21 @@ public class Drucker {
     {
         return farbdruck;
     }
+    
+    
+    
+   public void setModell(String neuModell)
+   {
+      modell = neuModell;  
+   }
+     
+    public void setDpi(int neuDpi)
+   {
+    dpi = neuDpi;
+   }
+
+    public void setFarbdruck(boolean neuFarbdruck)
+   {
+    farbdruck = neuFarbdruck;
+   } 
 }
