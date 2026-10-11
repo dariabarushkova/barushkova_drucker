@@ -44,4 +44,11 @@ public class Drucker {
    {
     farbdruck = neuFarbdruck;
    } 
+   
+   public void printDrucker()
+   {
+   System.out.println(modell + " Drucker: " + dpi + " DPI " + "- " +farbdruck);
+   }
+   
+  
 }
