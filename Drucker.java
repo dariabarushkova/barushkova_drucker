@@ -5,6 +5,12 @@ public class Drucker {
     private boolean farbdruck;
     
     
+    public Drucker ()
+    {
+     modell= "UNKN";
+     dpi = 0;
+     farbdruck = false;
+    }
     
     
     public String getModell()
